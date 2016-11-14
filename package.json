@@ -1,0 +1,28 @@
+{
+  "name": "sample-code-for-jenkins",
+  "version": "0.0.0",
+  "description": "Jenkinsの動作確認用の小さなプロジェクト",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kuniwak/js-test-sample"
+  },
+  "author": "Kuniwak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kuniwak/js-test-sample/issues"
+  },
+  "homepage": "https://github.com/Kuniwak/js-test-sample#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^1.1.2",
+    "karma-chai": "^0.1.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.0.4",
+    "mocha": "^2.5.3"
+  }
+}
