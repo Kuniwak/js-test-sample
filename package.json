@@ -4,6 +4,8 @@
   "description": "Jenkinsの動作確認用の小さなプロジェクト",
   "main": "lib/index.js",
   "scripts": {
+    "start": "node start.js",
+    "e2e": "mocha 'e2e/**/*.js' --timeout 60000",
     "test": "karma start --single-run"
   },
   "repository": {
@@ -17,12 +19,16 @@
   },
   "homepage": "https://github.com/Kuniwak/js-test-sample#readme",
   "devDependencies": {
+    "body-parser": "^1.15.2",
     "chai": "^3.5.0",
+    "chromedriver": "^2.25.1",
+    "express": "^4.14.0",
     "karma": "^1.1.2",
     "karma-chai": "^0.1.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-mocha": "^1.1.1",
     "karma-mocha-reporter": "^2.0.4",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "selenium-webdriver": "^2.52.0"
   }
 }
